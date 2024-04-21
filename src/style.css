@@ -1,0 +1,46 @@
+* {
+	box-sizing: border-box;
+}
+
+body {
+	margin: 0;
+	font-family: system-ui, sans-serif;
+	color: black;
+	background-color: white;
+}
+
+h1 {
+	font-weight: 800;
+	font-size: 1.5rem;
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+}
+
+main {
+  flex-grow: 1;
+  padding: 10px;
+}
+
+header,
+footer {
+	background-color: #141e4c;
+	display: flex;
+  padding: 10px;
+}
+
+header a,
+footer a{
+  color: #fff;
+}
+
+header {
+	justify-content: space-evenly;
+}
+
+footer {
+	justify-content: center;
+}
